@@ -7,7 +7,7 @@ library("rgdal")
 # clear all the memory
 rm(list=ls())
 
-Maindirectory <- "E:/R_scripts"
+Maindirectory <- "E:/R_scripts/cloud_remove"
 source(paste(Maindirectory, "Fun_CropMaskBrickLandsat57_new.R",sep="/"),echo=TRUE)
 source(paste(Maindirectory, "Fun_CropMaskBrickLandsat8_new.R",sep="/"),echo=TRUE)
 
